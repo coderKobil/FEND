@@ -6,26 +6,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kobiljon's Blog</title>
-    <link rel="stylesheet" href="blogs.css">
-    <!-- <link rel="icon" type="image/x-icon" href=""> -->
+    <link rel="stylesheet" href="../styles/main-post.css">
+
 </head>
 
 <body>
-    <div class="blog-homepage container">
-        <div class="header field">
+    <div class="blog-post container">
+        <header>
             <div class="nav-bar">
                 <div class="nav-content">
-                    <a href="index.html">Kobiljon's Blog</a>
+                    <a href="../index.html">Kobiljon's Blog</a>
                     <div class="search-icon">
                         <a href="#">
-                            <img src="\FEND\Personal Blog\images\menu-button.png" alt="search Icon" width="22.5px"
-                                height="22.5px">
+                            <img src="../images/menu-button.png" alt="menu" width="22.5px" height="22.5px">
                         </a>
                     </div>
                 </div>
             </div>
             <div class="divider"></div>
-        </div>
+        </header>
+
         <div class="author-info">
             <div class="avatar">
                 <!-- <img src="/FEND/Personal Blog/images/image-profile.png" alt="Avatar image"> -->
@@ -43,7 +43,8 @@
             </div>
 
         </div>
-        <div class="content field">
+
+        <main>
 
             <section class=" blog-post box">
 
@@ -64,8 +65,8 @@
                     </div>
                     <div id="card-figure">
                         <figure id="card-image">
-                            <img src="/FEND/Personal Blog/images/example image.png" alt="Example image" width="330px"
-                                height="200px" style="border-radius: 2.5px;">
+                            <img src="../images/example image.png" alt="Example image" width="330px" height="200px"
+                                style="border-radius: 2.5px;">
                             <figcaption id="image-caption">
                                 <span> <em>Photo by ©Kevin Carden</em></span>
                             </figcaption>
@@ -93,12 +94,12 @@
                             felis id neque varius laoreet sed molestie lacus. Phasellus vitae efficitur urna. Fusce
                             faucibus ultricies varius. Integer imperdiet aliquam malesuada. Nulla facilisi. Vivamus
                             ut interdum ligula, ac scelerisque dolor. Duis consequat tellus vel sapien lacinia, a
-                            pretium augue suscipit. <br>
+                            pretium augue suscipit. <br> <br>
 
-                            Quisque gravida sed arcu eu sagittis. Vestibulum tortor felis, efficitur in tincidunt
-                            vitae, euismod vitae lacus. Quisque sed erat non dui congue rhoncus. Integer congue sem
-                            sed malesuada gravida. Vivamus molestie dolor et purus scelerisque gravida. Suspendisse
-                            in euismod dolor. Sed sit amet sodales arcu.
+                            <em>Quisque gravida sed arcu eu sagittis. Vestibulum tortor felis, efficitur in tincidunt
+                                vitae, euismod vitae lacus. Quisque sed erat non dui congue rhoncus. Integer congue sem
+                                sed malesuada gravida. Vivamus molestie dolor et purus scelerisque gravida. Suspendisse
+                                in euismod dolor. Sed sit amet sodales arcu. </em> <br> <br>
 
                             Vivamus in mollis elit. Mauris lacinia vel dui nec rhoncus. In blandit vulputate eros
                             vitae bibendum. Integer mattis condimentum elementum. Praesent sit amet commodo erat.
@@ -141,11 +142,11 @@
                         </article>
                     </div>
                     <div class="older-newer btn">
-                        <a href="blog 2.html"><button id="older-btn" type="button">
+                        <a href="./blog 2.html"><button id="older-btn" type="button">
                                 Older Post
                             </button>
                         </a>
-                        <a href="index.html">
+                        <a href="../index.html">
                             <button id="newer-btn" type="button">
                                 Newer Post
                             </button></a>
@@ -156,8 +157,9 @@
 
             </section>
 
-        </div>
-        <div class="side-bar">
+        </main>
+
+        <aside>
             <div class="about sidebar-content">
                 <h2>About</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>
@@ -170,14 +172,15 @@
                 <a href="https://twitter.com/nqobiljon" target="_blank">Twitter</a>
                 <a href="https://www.facebook.com/qobiljon.najmiddinov.98/" target="_blank">Facebook</a>
             </div>
-        </div>
+        </aside>
 
-        <div class="footer field">
+        <footer>
             <div class="footer-detail">
                 <p>© Kobiljon Najmiddinov 2023.</p>
 
             </div>
-        </div>
+        </footer>
+    </div>
 </body>
 
 </html>
