@@ -100,13 +100,13 @@
 
         width: 100%;
         display: grid;
-        grid-template-columns: 370px 370px 370px;
+        grid-template-columns: 450px 450px 370px;
         grid-template-rows: 80px 80px minmax(1234px, auto) 80px;
         grid-template-areas:
-            "hd hd hd "
-            "auth auth auth"
-            "main main side"
-            "ft ft ft ";
+            "hd hd hd hd"
+            "auth auth auth auth"
+            "main main side side"
+            "ft ft ft ft ";
         grid-gap: 10px;
 
 
@@ -118,7 +118,7 @@
 
     .author-info {
         grid-area: auth;
-        margin-left: 100px;
+        margin-left: 125px;
         width: 950px;
     }
 
