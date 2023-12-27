@@ -114,12 +114,19 @@
     .home-title {
         grid-area: home;
         width: 840px;
-        margin-left: 120px;
+        margin: auto;
+    }
+    
+    #quote{
+        width: 1000px;
+        margin-left: 50px;
+        
     }
 
     .quote {
         grid-area: quote;
         width: 850px;
+        
 
     }
 
@@ -128,7 +135,8 @@
         font-size: 1.6em;
         line-height: 1.2;
         width: 820px;
-        margin-left: 100px;
+        margin-left: auto;
+        
     }
 
     .quote figcaption {
@@ -143,5 +151,12 @@
 
     footer {
         grid-area: ft;
+    }
+
+}
+
+@media(min-width:1300px){
+    #quote{
+        margin-left: 230px;
     }
 }
